@@ -1,4 +1,5 @@
 🎓 Almas English Language Institute
+
 A complete, modern language learning platform built with React and TypeScript.
 Live Demo: https://cleverboy01.github.io/english-institute/
 
