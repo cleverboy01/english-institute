@@ -1,0 +1,254 @@
+[
+  {
+    "id": "1",
+    "title": "انگلیسی برای مبتدیان - پایه‌ای",
+    "slug": "english-for-beginners",
+    "description": "سفر یادگیری انگلیسی خود را با اعتماد به نفس آغاز کنید. گرامر پایه، واژگان و مهارت‌های ارتباطی ضروری را فرا بگیرید.",
+    "fullDescription": "این دوره جامع برای افرادی طراحی شده که می‌خواهند زبان انگلیسی را از صفر شروع کنند. با تمرکز بر پایه‌های محکم، شما گرامر اساسی، واژگان روزمره و مهارت‌های ارتباطی را یاد خواهید گرفت. این دوره شامل فعالیت‌های تعاملی، تمرین‌های گفتاری و نوشتاری متعدد است.",
+    "level": "مبتدی",
+    "price": 2500000,
+    "duration": "8 هفته",
+    "sessions": 24,
+    "schedule": "دوشنبه و چهارشنبه، 17:00-19:00",
+    "teacher": "1",
+    "rating": 4.8,
+    "enrolled": 156,
+    "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=800&h=400&fit=crop",
+    "category": "انگلیسی عمومی",
+    "capacity": 15,
+    "status": "active",
+    "learningPoints": [
+      "مکالمات پایه و معارفه",
+      "گرامر اصلی و ساختارهای جمله",
+      "واژگان روزمره (1000+ کلمه)",
+      "تلفظ صحیح و لهجه",
+      "مهارت‌های شنیداری پایه",
+      "نوشتار ساده انگلیسی"
+    ],
+    "syllabus": [
+      {"title": "مقدمه و الفبا", "description": "آشنایی با حروف، اصوات و تلفظ پایه"},
+      {"title": "معارفه و سلام", "description": "معرفی خود، احوال‌پرسی و مکالمات اولیه"},
+      {"title": "اعداد و زمان", "description": "شمارش، ساعت، روزها و ماه‌ها"},
+      {"title": "خانواده و روابط", "description": "واژگان مربوط به اعضای خانواده"},
+      {"title": "فعل To Be", "description": "کاربرد فعل بودن در زمان حال"},
+      {"title": "صفات توصیفی", "description": "توصیف افراد و اشیا"},
+      {"title": "حال ساده", "description": "زمان حال ساده برای عادات روزمره"},
+      {"title": "سوالات و پاسخ", "description": "ساختن سوال و پاسخ دادن"}
+    ],
+    "requirements": [
+      "هیچ دانش قبلی از زبان انگلیسی لازم نیست",
+      "انگیزه و تمایل به یادگیری",
+      "دفترچه و خودکار برای یادداشت"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "آمادگی آیلتس - دوره کامل",
+    "slug": "ielts-preparation-complete",
+    "description": "آمادگی جامع آیلتس با پوشش هر چهار مهارت. نمره هدف خود را با استراتژی‌های اثبات شده به دست آورید.",
+    "fullDescription": "دوره جامع آمادگی آیلتس شامل تمام چهار بخش آزمون: Listening، Reading، Writing و Speaking. با تمرین‌های فشرده، تست‌های آزمایشی و بازخورد دقیق، به نمره مورد نظر خود دست پیدا کنید.",
+    "level": "متوسط",
+    "price": 3500000,
+    "duration": "12 هفته",
+    "sessions": 36,
+    "schedule": "شنبه و یکشنبه، 10:00-13:00",
+    "teacher": "2",
+    "rating": 4.9,
+    "enrolled": 243,
+    "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
+    "category": "آمادگی آزمون",
+    "capacity": 12,
+    "status": "active",
+    "learningPoints": [
+      "استراتژی‌های Listening برای نمره 7+",
+      "تکنیک‌های Reading سریع و دقیق",
+      "نوشتن Task 1 و Task 2 حرفه‌ای",
+      "Speaking روان و طبیعی",
+      "10+ تست کامل آزمایشی",
+      "اصلاح اشتباهات رایج"
+    ],
+    "syllabus": [
+      {"title": "آشنایی با فرمت آزمون", "description": "ساختار آیلتس و نمره‌دهی"},
+      {"title": "استراتژی Listening", "description": "تکنیک‌های شنیداری و یادداشت‌برداری"},
+      {"title": "Reading Skills", "description": "اسکیمینگ، اسکنینگ و درک مطلب"},
+      {"title": "Writing Task 1", "description": "نمودارها، جداول و فرآیندها"},
+      {"title": "Writing Task 2", "description": "مقالات استدلالی و بحثی"},
+      {"title": "Speaking Part 1", "description": "سوالات شخصی و روزمره"},
+      {"title": "Speaking Part 2", "description": "تاپیک کارت و سخنرانی 2 دقیقه‌ای"},
+      {"title": "Speaking Part 3", "description": "بحث و بررسی موضوعات انتزاعی"}
+    ],
+    "requirements": [
+      "سطح Pre-Intermediate یا بالاتر",
+      "آشنایی با گرامر پایه",
+      "تعهد به تمرین روزانه 2 ساعته"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "انگلیسی تجاری برای حرفه‌ای‌ها",
+    "slug": "business-english-professionals",
+    "description": "مهارت‌های ارتباطی حرفه‌ای خود را ارتقا دهید. مناسب برای جلسات کاری، ارائه‌ها و مکاتبات ایمیل.",
+    "fullDescription": "این دوره برای افرادی طراحی شده که می‌خواهند در محیط کاری بین‌المللی موفق باشند. یاد بگیرید چگونه در جلسات حرفه‌ای شرکت کنید، ارائه‌های تاثیرگذار بدهید و ایمیل‌های تجاری بنویسید.",
+    "level": "پیشرفته",
+    "price": 4200000,
+    "duration": "10 هفته",
+    "sessions": 30,
+    "schedule": "سه‌شنبه و پنج‌شنبه، 18:00-20:00",
+    "teacher": "3",
+    "rating": 4.7,
+    "enrolled": 189,
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop",
+    "category": "انگلیسی تجاری",
+    "capacity": 10,
+    "status": "active",
+    "learningPoints": [
+      "مذاکرات تجاری حرفه‌ای",
+      "ارائه و پرزنتیشن موثر",
+      "نگارش ایمیل و گزارش تجاری",
+      "شرکت در جلسات و کنفرانس‌ها",
+      "واژگان تخصصی کسب‌وکار",
+      "فرهنگ سازمانی بین‌المللی"
+    ],
+    "syllabus": [
+      {"title": "ارتباطات شرکتی", "description": "مکالمات رسمی و غیررسمی در محیط کار"},
+      {"title": "ایمیل نویسی حرفه‌ای", "description": "ساختار و لحن ایمیل‌های تجاری"},
+      {"title": "جلسات و Meeting", "description": "شرکت فعال در جلسات کاری"},
+      {"title": "مذاکره و Negotiation", "description": "تکنیک‌های مذاکره موثر"},
+      {"title": "ارائه و Presentation", "description": "طراحی و اجرای پرزنتیشن"},
+      {"title": "گزارش‌نویسی", "description": "نوشتن گزارش‌های تجاری"},
+      {"title": "تماس تلفنی", "description": "مکالمات تلفنی حرفه‌ای"},
+      {"title": "شبکه‌سازی", "description": "ایجاد روابط حرفه‌ای"}
+    ],
+    "requirements": [
+      "سطح Upper-Intermediate",
+      "تجربه کاری در محیط بین‌المللی (مزیت)",
+      "آشنایی با اصطلاحات پایه تجاری"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "انگلیسی مکالمه - با اعتماد به نفس صحبت کنید",
+    "slug": "conversational-english",
+    "description": "روانی و اعتماد به نفس در مکالمات روزمره را توسعه دهید. تمرکز بر الگوهای گفتاری طبیعی و تلفظ.",
+    "fullDescription": "این دوره به شما کمک می‌کند با اعتماد به نفس کامل انگلیسی صحبت کنید. با تمرین‌های مکالمه فشرده، بازی‌های نقش و بحث‌های گروهی، مهارت Speaking خود را بهبود دهید.",
+    "level": "متوسط",
+    "price": 2800000,
+    "duration": "8 هفته",
+    "sessions": 24,
+    "schedule": "دوشنبه، چهارشنبه و جمعه، 16:00-18:00",
+    "teacher": "4",
+    "rating": 4.6,
+    "enrolled": 178,
+    "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&h=400&fit=crop",
+    "category": "مکالمه",
+    "capacity": 12,
+    "status": "active",
+    "learningPoints": [
+      "مکالمه روان و طبیعی",
+      "تلفظ و لهجه صحیح",
+      "اصطلاحات و عبارات رایج",
+      "درک گفتار سریع بومی‌ها",
+      "بحث و گفتگو درباره موضوعات مختلف",
+      "غلبه بر ترس از صحبت کردن"
+    ],
+    "syllabus": [
+      {"title": "مکالمات روزمره", "description": "صحبت درباره فعالیت‌های روزانه"},
+      {"title": "سفر و گردشگری", "description": "مکالمات مربوط به سفر"},
+      {"title": "رستوران و خرید", "description": "سفارش غذا و خرید کردن"},
+      {"title": "سرگرمی و هابی", "description": "صحبت درباره علایق"},
+      {"title": "اخبار و رویدادها", "description": "بحث درباره اخبار جاری"},
+      {"title": "نظرات و احساسات", "description": "بیان عقیده و احساسات"},
+      {"title": "بحث و مناظره", "description": "دفاع از نظرات"},
+      {"title": "داستان‌سرایی", "description": "تعریف تجربیات و داستان‌ها"}
+    ],
+    "requirements": [
+      "سطح Intermediate",
+      "توانایی درک گفتار پایه",
+      "تمایل به شرکت فعال در بحث‌ها"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "آمادگی تافل",
+    "slug": "toefl-test-prep",
+    "description": "آمادگی جامع تافل با تمرکز بر انگلیسی آکادمیک و استراتژی‌های آزمون.",
+    "fullDescription": "دوره تخصصی آمادگی تافل iBT که شما را برای موفقیت در این آزمون مهم آماده می‌کند. با تمرکز بر انگلیسی آکادمیک و تکنیک‌های پیشرفته تست.",
+    "level": "پیشرفته",
+    "price": 3800000,
+    "duration": "12 هفته",
+    "sessions": 36,
+    "schedule": "شنبه و یکشنبه، 14:00-17:00",
+    "teacher": "2",
+    "rating": 4.9,
+    "enrolled": 134,
+    "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=400&fit=crop",
+    "category": "آمادگی آزمون",
+    "capacity": 10,
+    "status": "active",
+    "learningPoints": [
+      "استراتژی‌های Reading آکادمیک",
+      "Listening برای محیط دانشگاهی",
+      "Speaking ساختاریافته",
+      "Integrated و Independent Writing",
+      "مدیریت زمان در آزمون",
+      "8+ تست کامل شبیه‌سازی شده"
+    ],
+    "syllabus": [
+      {"title": "ساختار تافل iBT", "description": "آشنایی کامل با فرمت آزمون"},
+      {"title": "Reading Comprehension", "description": "درک متون آکادمیک پیچیده"},
+      {"title": "Listening Strategies", "description": "یادداشت‌برداری از لکچرها"},
+      {"title": "Integrated Writing", "description": "ترکیب خواندن، شنیدن و نوشتن"},
+      {"title": "Independent Writing", "description": "مقاله نویسی استدلالی"},
+      {"title": "Speaking Tasks", "description": "پاسخ به 4 بخش Speaking"},
+      {"title": "Vocabulary Building", "description": "واژگان آکادمیک"},
+      {"title": "Practice Tests", "description": "تست‌های کامل شبیه‌سازی"}
+    ],
+    "requirements": [
+      "سطح Upper-Intermediate به بالا",
+      "هدف ورود به دانشگاه خارج",
+      "تعهد به تمرین منظم"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "کلاس جامع گرامر انگلیسی",
+    "slug": "grammar-masterclass",
+    "description": "گرامر انگلیسی را از پایه تا پیشرفته مسلط شوید. توضیحات واضح با مثال‌ها و تمرین‌های کاربردی.",
+    "fullDescription": "این دوره جامع گرامر، تمام نکات دستوری زبان انگلیسی را از ابتدایی تا پیشرفته پوشش می‌دهد. با تمرکز بر کاربرد عملی و تمرین‌های فراوان.",
+    "level": "متوسط",
+    "price": 2600000,
+    "duration": "10 هفته",
+    "sessions": 30,
+    "schedule": "یکشنبه و سه‌شنبه، 19:00-21:00",
+    "teacher": "5",
+    "rating": 4.7,
+    "enrolled": 156,
+    "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&h=400&fit=crop",
+    "category": "گرامر",
+    "capacity": 14,
+    "status": "active",
+    "learningPoints": [
+      "12 زمان انگلیسی",
+      "ساختارهای شرطی",
+      "جملات مجهول",
+      "نقل قول مستقیم و غیرمستقیم",
+      "افعال کمکی و Modal Verbs",
+      "عبارات اسمی و فعلی"
+    ],
+    "syllabus": [
+      {"title": "زمان‌های ساده", "description": "حال، گذشته و آینده ساده"},
+      {"title": "زمان‌های استمراری", "description": "حال، گذشته و آینده استمراری"},
+      {"title": "زمان‌های کامل", "description": "Present و Past Perfect"},
+      {"title": "جملات شرطی", "description": "Zero تا Third Conditional"},
+      {"title": "مجهول", "description": "ساختارهای Passive Voice"},
+      {"title": "نقل قول", "description": "Reported Speech"},
+      {"title": "Modal Verbs", "description": "افعال کمکی و کاربردها"},
+      {"title": "مرور و تمرین", "description": "تمرین‌های جامع"}
+    ],
+    "requirements": [
+      "دانش پایه انگلیسی",
+      "آشنایی با افعال و زمان‌های ساده",
+      "علاقه به یادگیری دقیق دستور زبان"
+    ]
+  }
+]
