@@ -1,88 +1,141 @@
-# 🎓 آموزشگاه زبان انگلیسی الماس
+🎓 Almas English Language Institute
+A complete, modern language learning platform built with React and TypeScript.
+Live Demo: https://cleverboy01.github.io/english-institute/
 
-یه وبسایت کامل برای آموزشگاه‌های زبان که با React و TypeScript ساختمش
-https://cleverboy01.github.io/english-institute/.
+💡 About
+An educational platform designed for language institutes, featuring three distinct user roles:
 
-## 💡 چیه این؟
+Students - Browse courses, manage shopping cart, track learning progress
 
-یه پلتفرم آموزشی که سه نوع کاربر داره:
-- **دانشجو**: میتونه دوره‌ها رو ببینه، بخره، تو سبد خرید بریزه
-- **استاد**: میتونه دوره بسازه، قیمت تعیین کنه، عکس آپلود کنه
-- **ادمین**: کل سایت رو مدیریت میکنه
+Teachers - Create courses, upload media, set pricing and difficulty levels
 
-## 💻 زبان‌های برنامه‌نویسی
+Admins - Full platform management and analytics
 
-![TypeScript](https://img.shields.io/badge/TypeScript-68%25-blue?logo=typescript) ![JavaScript](https://img.shields.io/badge/JavaScript-20%25-yellow?logo=javascript) ![CSS](https://img.shields.io/badge/CSS-10%25-blue?logo=css3) ![HTML](https://img.shields.io/badge/HTML-2%25-orange?logo=html5)
+🛠️ Tech Stack
+Core Technologies:
 
-این پروژه با زبان‌های زیر نوشته شده:
-- **TypeScript** - زبان اصلی (Type-safe JavaScript)
-- **JavaScript/JSX** - برای کامپوننت‌های React
-- **HTML** - ساختار صفحات
-- **CSS** - استایل‌دهی (Tailwind CSS)
-- **JSON** - ذخیره داده‌ها
+React 18 - UI framework with modern hooks
 
-## 🛠 ساختمش با:
+TypeScript - Type-safe development
 
-![React](https://img.shields.io/badge/React-18-blue?logo=react) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript) ![Vite](https://img.shields.io/badge/Vite-5-purple?logo=vite) ![Tailwind](https://img.shields.io/badge/Tailwind-3-cyan?logo=tailwindcss)
+Vite - Lightning-fast build tool
 
-**کتابخانه‌ها:** React Router • shadcn/ui • Lucide Icons • LocalStorage
+Tailwind CSS - Utility-first styling
 
-## 🚀 چطور اجراش کنم؟
+Key Libraries:
+
+React Router - Client-side routing
+
+shadcn/ui - Accessible component library
+
+Lucide Icons - Beautiful icon set
+
+LocalStorage - Client-side data persistence
+
+💻 Programming Languages
+This project is built using:
+
+TypeScript (68%) - Primary language for type-safe development
+
+JavaScript/JSX (20%) - React components and logic
+
+CSS (10%) - Styling with Tailwind CSS
+
+HTML (2%) - Page structure
+
+🚀 Getting Started
+Prerequisites
+Node.js 18+ and npm
+
+Installation
 
 
-دانلود
+# Clone the repository
 git clone https://github.com/cleverboy01/english-institute.git
 cd english-institute
 
-نصب
+# Install dependencies
 npm install
 
-اجرا
+# Start development server
 npm run dev
 
+Navigate to http://localhost:5173 and you're all set! 🎉
 
-برو `http://localhost:5173` و تمام! 🎉
+✨ Features
+For Students
+🔍 Advanced course search and filtering
 
-## ✨ امکانات
+🛒 Shopping cart and wishlist management
 
-**برای دانشجوها:**
-- جستجو و فیلتر دوره‌ها
-- سبد خرید و لیست علاقه‌مندی‌ها
-- داشبورد شخصی
-- پیگیری پیشرفت
+📊 Personal dashboard with progress tracking
 
-**برای اساتید:**
-- ایجاد و مدیریت دوره
-- آپلود تصویر
-- تنظیم قیمت و سطح
-- مشاهده آمار
+💳 Course enrollment system
 
-## 📁 ساختار
+⭐ Course reviews and ratings
 
+For Teachers
+➕ Create and manage courses
 
+📸 Upload course thumbnails
 
-src/
-├── components/ → کامپوننت‌های مشترک
-├── pages/ → صفحات
-├── contexts/ → مدیریت state
-└── data/ → JSON ها
+💰 Set pricing and difficulty levels
 
+📈 View student enrollment statistics
 
-## 🎨 ویژگی‌ها
+📝 Course content management
 
-- ✅ حالت شب/روز
-- ✅ کاملاً ریسپانسیو
-- ✅ بدون نیاز به Backend
-- ✅ سرعت بالا با Vite
+For Everyone
+🌓 Dark/Light mode toggle
 
-## 👨‍💻 سازنده
+📱 Fully responsive design
 
-**محمدرضا کاظمی**
+🚀 Lightning-fast performance with Vite
 
-[![GitHub](https://img.shields.io/badge/GitHub-cleverboy01-181717?logo=github)](https://github.com/cleverboy01)
+🎨 Modern UI with shadcn/ui components
 
----
+🔒 Secure authentication system
 
-اگه خوشت اومد یه ⭐ بده!
+🎨 Key Highlights
+✅ Dark/Light theme support
 
-**ساخته شده با ❤️ و React**
+✅ Fully responsive (mobile, tablet, desktop)
+
+✅ No backend required (LocalStorage-based)
+
+✅ Type-safe with TypeScript
+
+✅ Modern React patterns and hooks
+
+✅ RTL (Right-to-Left) language support
+
+📦 Build for Production
+
+# Create optimized production build
+npm run build
+
+# Preview production build
+npm run preview
+
+🌐 Deployment
+This project is deployed on GitHub Pages:
+
+npm run deploy
+
+👨‍💻 Developer
+Mohammad Reza Kazemi
+GitHub: @cleverboy01
+Telegram:@Mrezakazemix
+Instagram:@mrezakazemi_
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the issues page.
+
+⭐ Show Your Support
+Give a ⭐️ if this project helped you!
+
+📄 License
+This project is open source and available under the MIT License.
+
+Built with ❤️ using React and TypeScript
