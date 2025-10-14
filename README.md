@@ -9,6 +9,17 @@
 - **استاد**: میتونه دوره بسازه، قیمت تعیین کنه، عکس آپلود کنه
 - **ادمین**: کل سایت رو مدیریت میکنه
 
+## 💻 زبان‌های برنامه‌نویسی
+
+![TypeScript](https://img.shields.io/badge/TypeScript-68%25-blue?logo=typescript) ![JavaScript](https://img.shields.io/badge/JavaScript-20%25-yellow?logo=javascript) ![CSS](https://img.shields.io/badge/CSS-10%25-blue?logo=css3) ![HTML](https://img.shields.io/badge/HTML-2%25-orange?logo=html5)
+
+این پروژه با زبان‌های زیر نوشته شده:
+- **TypeScript** - زبان اصلی (Type-safe JavaScript)
+- **JavaScript/JSX** - برای کامپوننت‌های React
+- **HTML** - ساختار صفحات
+- **CSS** - استایل‌دهی (Tailwind CSS)
+- **JSON** - ذخیره داده‌ها
+
 ## 🛠 ساختمش با:
 
 ![React](https://img.shields.io/badge/React-18-blue?logo=react) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript) ![Vite](https://img.shields.io/badge/Vite-5-purple?logo=vite) ![Tailwind](https://img.shields.io/badge/Tailwind-3-cyan?logo=tailwindcss)
@@ -27,7 +38,6 @@ npm install
 
 اجرا
 npm run dev
-
 
 
 برو `http://localhost:5173` و تمام! 🎉
