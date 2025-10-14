@@ -94,7 +94,7 @@ export const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center text-xl font-bold">
             <img
-              src="/public/Images/logo4.png"
+              src={`${import.meta.env.BASE_URL}Images/logo4.png`}
               style={{ width: "100px" }}
               alt="لوگو"
             />

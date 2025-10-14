@@ -1,11 +1,11 @@
 /* cSpell:disable */
-import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { useAuth } from '@/contexts/AuthContext';
-import { Book, Mail, Lock, Eye, EyeOff } from 'lucide-react';
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { useAuth } from "@/contexts/AuthContext";
+import { Book, Mail, Lock, Eye, EyeOff } from "lucide-react";
 
 type User = {
   id: string;
@@ -15,31 +15,31 @@ type User = {
 };
 
 export const Login = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
-  const [error, setError] = useState('');
+  const [error, setError] = useState("");
   const { login } = useAuth();
   const navigate = useNavigate();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setError('');
+    setError("");
 
     if (!email || !password) {
-      setError('Please fill in all fields');
+      setError("Please fill in all fields");
       return;
     }
 
     const success = login(email, password);
     if (success) {
       if (rememberMe) {
-        const users: User[] = JSON.parse(localStorage.getItem('users') || '[]');
+        const users: User[] = JSON.parse(localStorage.getItem("users") || "[]");
         const user = users.find((u) => u.email === email);
         if (user) {
           localStorage.setItem(
-            'rememberedUser',
+            "rememberedUser",
             JSON.stringify({
               id: user.id,
               name: user.name,
@@ -51,18 +51,18 @@ export const Login = () => {
       }
 
       // Get user role and redirect accordingly
-      const users: User[] = JSON.parse(localStorage.getItem('users') || '[]');
+      const users: User[] = JSON.parse(localStorage.getItem("users") || "[]");
       const user = users.find((u) => u.email === email);
 
-      if (user?.role === 'admin') {
-        navigate('/admin');
-      } else if (user?.role === 'teacher') {
-        navigate('/teacher/dashboard');
+      if (user?.role === "admin") {
+        navigate("/admin");
+      } else if (user?.role === "teacher") {
+        navigate("/teacher/dashboard");
       } else {
-        navigate('/dashboard');
+        navigate("/dashboard");
       }
     } else {
-      setError('Invalid email or password');
+      setError("Invalid email or password");
     }
   };
 
@@ -71,10 +71,16 @@ export const Login = () => {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
-            <Book className="h-8 w-8 text-primary" />
+            <img
+              src={`${import.meta.env.BASE_URL}Images/logo4.png`}
+              style={{ width: "100%" }}
+              alt="لوگو"
+            />
           </div>
           <h1 className="text-3xl font-bold mb-2">خوش آمدید!</h1>
-          <p className="text-muted-foreground">برای ادامه به حساب خود وارد شوید</p>
+          <p className="text-muted-foreground">
+            برای ادامه به حساب خود وارد شوید
+          </p>
         </div>
 
         <div className="bg-card rounded-lg shadow-lg p-8">
@@ -106,7 +112,7 @@ export const Login = () => {
                 <Lock className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
                 <Input
                   id="password"
-                  type={showPassword ? 'text' : 'password'}
+                  type={showPassword ? "text" : "password"}
                   placeholder="••••••••"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
@@ -134,9 +140,14 @@ export const Login = () => {
                   onChange={(e) => setRememberMe(e.target.checked)}
                   className="rounded border-gray-300"
                 />
-                <span className="text-sm text-muted-foreground">مرا به خاطر بسپار</span>
+                <span className="text-sm text-muted-foreground">
+                  مرا به خاطر بسپار
+                </span>
               </label>
-              <Link to="/forgot-password" className="text-sm text-primary hover:underline">
+              <Link
+                to="/forgot-password"
+                className="text-sm text-primary hover:underline"
+              >
                 رمز خود را فراموش کردم؟
               </Link>
             </div>
@@ -147,8 +158,11 @@ export const Login = () => {
           </form>
 
           <div className="mt-6 text-center text-sm text-muted-foreground">
-            اکانت نساخته اید؟{' '}
-            <Link to="/register" className="text-primary font-semibold hover:underline">
+            اکانت نساخته اید؟{" "}
+            <Link
+              to="/register"
+              className="text-primary font-semibold hover:underline"
+            >
               همین حالا ثبت نام کنید
             </Link>
           </div>
